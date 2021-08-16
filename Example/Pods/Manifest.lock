@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - ATTNetwork (0.0.4):
+    - AFNetworking (~> 3.2)
+  - yingyongATTNet (0.0.1):
+    - ATTNetwork
+
+DEPENDENCIES:
+  - yingyongATTNet (from `../`)
+
+SPEC REPOS:
+  "git@github.com:tangtiancheng/RTDDSpecs.git":
+    - ATTNetwork
+  trunk:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  yingyongATTNet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ATTNetwork: 6d36d440f8961f7001a871c6145707a244ec4220
+  yingyongATTNet: 95adff06bce064ade9d9f2c36da4266b3c2c00ec
+
+PODFILE CHECKSUM: ece3339f354851416b9fde7bdec75d0d788e3257
+
+COCOAPODS: 1.10.2

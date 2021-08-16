@@ -1,0 +1,27 @@
+{
+  "name": "yingyongATTNet",
+  "version": "0.0.1",
+  "summary": "A short description of yingyongATTNet.",
+  "description": "TODO: Add long description of the pod here.\nTODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tangtiancheng/yingyongATTNet",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tangtiancheng": "1262711517@qq.com"
+  },
+  "source": {
+    "git": "git@github.com:tangtiancheng/yingyongATTNet.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "yingyongATTNet/Classes/**/*",
+  "dependencies": {
+    "ATTNetwork": [
+
+    ]
+  }
+}

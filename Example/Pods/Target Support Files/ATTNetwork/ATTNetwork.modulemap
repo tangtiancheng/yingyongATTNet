@@ -1,0 +1,6 @@
+framework module ATTNetwork {
+  umbrella header "ATTNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

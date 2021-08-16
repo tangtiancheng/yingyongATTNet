@@ -1,0 +1,6 @@
+framework module yingyongATTNet {
+  umbrella header "yingyongATTNet-umbrella.h"
+
+  export *
+  module * { export * }
+}

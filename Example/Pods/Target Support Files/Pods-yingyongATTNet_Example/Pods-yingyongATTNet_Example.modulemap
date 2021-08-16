@@ -1,0 +1,6 @@
+framework module Pods_yingyongATTNet_Example {
+  umbrella header "Pods-yingyongATTNet_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
