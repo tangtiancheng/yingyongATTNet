@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'yingyongATTNet_Example' do
+  pod 'yingyongATTNet', :path => '../'
+
+  target 'yingyongATTNet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
